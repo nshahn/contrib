@@ -3,7 +3,10 @@ package customdatetime
 import (
 	"fmt"
 	"testing"
+
 	"github.com/project-flogo/core/data/expression/function"
+
+	"github.com/stretchr/testify/assert"
 )
 
 var in = &fnDateTimeToTimeStamp{}
