@@ -6,7 +6,7 @@
     "description": "customdatetime function",
     "functions": [{
             "name": "totimestamp",
-            "description": "Converts current date time to timestamp",
+            "description": "Converts current date time to timestamp in milliseconds",
             "example": "customdatetime.totimestamp()\nReturns\n1573809431645",
             "args": [],
             "return": {
